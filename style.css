@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+html{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQm50nz-1XsT2HVBx_ouP-znb7oNhEWMUJkkA&usqp=CAU");
+  background-size:cover;
+  color:#f1f1f1;
+}
+header{
+  border:5px groove white;
+  border-radius:10px;
+  background:rgba(0,0,0,0.7);
+}
+header:hover{
+  background:rgba(0,0,0,0);
+}
+#name{
+  text-align:center;
+  font-family: 'Sansita Swashed', cursive; 
+  font-size:4.5em;
+  
+}
+.intro_info>h3{
+  text-align:center;
+  font-family: 'Sansita Swashed', cursive;
+}
+#job{
+  text-align:center;
+  font-size:1em;
+  position:relative;
+  bottom:1.5em;
+}
+#intro{
+  text-align:center;
+  font-family: 'Chilanka', cursive; 
+}
+header{
+  display:flex;
+  flex-direction:row-reverse;
+}
+.intro_info{  
+  width:60%;
+  font-size:1.5em;
+}
+
+.intro_img{
+  width:40%;
+  animation: profile_img 10s infinite;
+  
+}
+ul>a{
+  color:white;
+  text-decoration:none;
+  line-height:1;
+}
+a>li{
+  line-height:0.4;
+  list-style-type: square;
+}
+.intro_img{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/6e/A._P._J._Abdul_Kalam.jpg");
+   background-size:cover;
+   background-repeat:no-repeat;
+   margin:10px;
+  }
+main{
+  display:flex;
+  flex-direction:column;
+}
+.info{
+  width:60%;
+  text-indent:20px;
+  padding:10px;
+  font-family: 'Chilanka', cursive; 
+  font-size:1.5em;
+  margin-left: 1rem;
+}
+
+.heading{
+  font-size:3em;
+  padding:20px;
+  font-family: 'Arimo', sans-serif;
+  text-decoration:underline;
+}
+.setting_1{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:20px;
+}
+.imgs{
+  height:500px;
+  width:30%;
+  margin:auto;
+  border:7px double white; 
+  border-radius:1em;
+  position:relative;
+}
+.imgs>img{
+  position: absolute;
+  width:90%;
+  height:90%;
+  left:1.5em;
+  top:1.4em;
+}
+#personal_img{
+  position:relative;
+  height:550px;
+  bottom:1.5em;
+  margin-right:auto;
+  
+  box-sizing:border-box;
+}
+.imgs img:nth-child(2) {
+animation: cf4FadeInOut 10s infinite;   
+}
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:1;
+  }
+  55%{
+    opacity:0;
+  }
+  72%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+.setting_2{
+  display:flex;
+  flex-direction:row-reverse;
+  margin-bottom:12px;
+}
+#early_image{
+  margin-top:5em;
+}
+.whole_info{
+  margin:25px 15px 25px 15px;
+  border:2px solid;
+  border-radius:10px;
+  background:rgba(0,0,0,0.7);
+}
+.whole_info:hover{
+  background:rgba(0,0,0,0);
+}
+#wrting_image{
+  margin-top:5em;
+}
+#award_images{
+  margin-top:3em;
+}
+#thought{
+  font-size:2em;
+  text-align:center;
+  border:7px groove white;
+  border-radius:20px;
+  background:rgba(0,0,0,0.7);
+}
+#thought>p{
+  font-size:1.5em;
+  font-family: 'Sansita Swashed', cursive; 
+}
+#thought p:nth-child(2){
+  text-align:right;
+  padding-right:10px;
+}
+#wrting_image,#pre_image{
+  height:600px;
+}
+#source{
+  font-size:10px;;
+  text-align:right;
+  padding-right:2em;
+}
+#source>a{
+  color:white;
+  text-decoration:none;
+}
